@@ -1,0 +1,31 @@
+{
+  "name": "webpack-ts-base-project",
+  "version": "1.0.0",
+  "description": "webpack-ts-base-project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./build/webpack.config.js --mode=development",
+    "build": "webpack --config ./build/webpack.config.js --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m2maomao/webpack-ts-base-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m2maomao/webpack-ts-base-project/issues"
+  },
+  "homepage": "https://github.com/m2maomao/webpack-ts-base-project#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "ts-loader": "^9.4.2",
+    "webpack": "^5.80.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3",
+    "webpack-merge": "^5.8.0"
+  }
+}
