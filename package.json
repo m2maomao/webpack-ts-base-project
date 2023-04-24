@@ -4,7 +4,7 @@
   "description": "webpack-ts-base-project",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./build/webpack.config.js --mode=development",
+    "start": "webpack-dev-server --config ./build/webpack.config.js --mode=development --open",
     "build": "webpack --config ./build/webpack.config.js --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
